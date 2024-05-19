@@ -2,6 +2,7 @@
 Python code to repair Plex DB item Added Date. Added Date is not accessible via GUI.  It is an internal date.  For some reason, some movie's Added Date were set to a future date of 2098.  This continues to make these problem movies show up
 as the first movie when sorted by Added Date.  The only way to fix this problem is to write code to change this date to a date in line with other movies.
 Run the script in PYcharm or CMD windows.
+Much of this script was written using ChatGPT, but it needed a lot of help.  Mostly I used it to write the actual code lines so I don't have to worry about the syntax. 
 
 This python code will repair date items associated with a movie by inspecting the date to see if it is in the future (bug in Plex for some added media) and replace it with a date from a week ago as of the running date
 The script check all dates associated with a movie.  If they are in the future they are reset to 1 week ago on run date.  You can change the date in the code.
