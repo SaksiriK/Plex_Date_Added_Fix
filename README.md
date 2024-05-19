@@ -11,3 +11,4 @@ PLEX_USERNAME = 'edxxx@gmail.com'
 PLEX_PASSWORD = '4vEM7ggVB5ue#'
 # Plex server URL
 PLEX_URL = 'http://192.168.1.52:32400'
+#find Plex on your own network and substitute
